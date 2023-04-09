@@ -28,7 +28,7 @@ notepad SILab1.java
 git add SILab1.java
 git commit -m "Fix method sumEvenNumbers"
 
-git push origin bug1 bug2 bug3
+git push origin bug1 bug2 bug3 
 git checkout master
 git merge bug1
 
