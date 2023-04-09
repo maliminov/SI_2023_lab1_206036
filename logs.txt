@@ -1,0 +1,39 @@
+cd C:\Users\FINKI\SI_2023_lab1_206036
+git init
+git add README.md
+notepad README.md
+git commit -m "Initial commit"
+notepad SILab1.java
+git add SILab1.java
+git commit -m "Add java class"
+git push -u origin master
+
+git branch bug1
+git branch bug2
+git branch bug3
+
+git checkout bug1
+notepad SILab1.java
+git add SILab1.java
+git commit -m "Fix wrong loop for reading"
+
+git checkout bug2
+notepad SILab1.java
+git add SILab1.java
+git commit -m "Fix wrong condition in filterOddNumbers"
+
+git checkout bug3
+notepad SILab1.java
+git add SILab1.java
+git commit -m "Fix method sumEvenNumbers"
+
+git push origin bug1 bug2 bug3
+git checkout master
+git merge bug1
+
+git add 206036.txt
+notepad logs.txt
+git add logs.txt
+
+git commit -m "Final commit"
+git push -u origin master
