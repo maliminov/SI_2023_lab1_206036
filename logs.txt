@@ -1,5 +1,6 @@
 cd C:\Users\FINKI\SI_2023_lab1_206036
 git init
+git remote add origin https://github.com/maliminov/SI_2023_lab1_206036
 git add README.md
 notepad README.md
 git commit -m "Initial commit"
